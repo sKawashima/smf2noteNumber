@@ -1,15 +1,28 @@
 {
   "name": "smf2noteNumber",
-  "version": "1.0.0",
-  "main": "index.js",
+  "version": "0.0.1",
+  "main": "dist/app.js",
   "license": "MIT",
   "devDependencies": {
-    "parcel-bundler": "^1.10.3",
-    "uglify-js": "^3.4.9"
+    "parcel-bundler": "^1.10.3"
   },
   "dependencies": {
     "argv": "^0.0.2",
     "midi-file-parser": "^1.0.0",
     "midifile": "^2.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sKawashima/MIDIFile2NoteNumbers.git"
+  },
+  "keywords": [
+    "midi",
+    "smf"
+  ],
+  "scripts": {
+    "build": "parcel build src/app.js --target node"
+  },
+  "bin": {
+    "smf2noteNumber": "bin/smf2noteNumber"
   }
 }
