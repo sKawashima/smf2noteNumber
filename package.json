@@ -1,0 +1,15 @@
+{
+  "name": "smf2noteNumber",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.10.3",
+    "uglify-js": "^3.4.9"
+  },
+  "dependencies": {
+    "argv": "^0.0.2",
+    "midi-file-parser": "^1.0.0",
+    "midifile": "^2.0.0"
+  }
+}
