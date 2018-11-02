@@ -1,5 +1,5 @@
 {
-  "name": "smf2noteNumber",
+  "name": "smf2notenumber",
   "version": "0.0.1",
   "main": "dist/app.js",
   "license": "MIT",
